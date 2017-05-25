@@ -1,0 +1,310 @@
+<html lang="en" class="no-js"><!--<![endif]--><!-- BEGIN HEAD -->
+  <head>
+
+    <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+    <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+    <!--[if !IE]><!--> <!--<![endif]-->
+
+    <meta charset="utf-8">
+    <title>IC DEV PROFILE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="static/media/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/style-metro.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/style.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/style-responsive.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/default.css" rel="stylesheet" type="text/css" id="style_color">
+    <link href="static/media/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="static/media/css/jquery.gritter.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/daterangepicker.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/fullcalendar.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="static/media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- END PAGE LEVEL STYLES -->
+    <link rel="shortcut icon" href="static/media/image/favicon.ico">
+
+    <script src="static/media/usedJs/js/My97DatePicker/WdatePicker.js"></script><link href="static/media/usedJs/js/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+    <link href="static/media/css/new-style.css" rel="stylesheet" type="text/css"/>
+    <link href="static/media/css/jiyejia.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <!-- 新加的css -->
+    <style>
+
+    </style>
+<body style="background-color: white; font-family: '微软雅黑'">
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<ol class="breadcrumb">
+  <li>
+      <a href="index.html">会员卡修改</a>
+  </li>
+  <!-- <li>
+      <a href="#">合作伙伴列表</a>
+      <i class="icon-angle-right"></i>
+  </li>
+  <li>
+      <a href="#">会员卡修改</a>
+  </li> -->
+</ol>
+<div class='body_wrap body_content'>
+  <div class="row-fluid">
+      <div class="span12">
+        <div class="page-header">
+          <h3>新建手动派发</h3>
+          <!-- <div class='btn orange'>已投放</div> -->
+        </div>
+        <div class='new_push'>
+          <form>
+            <div>
+              <i>*</i>
+              <span>活动名称</span>
+              <input type="text" class="ipt_text">
+            </div>
+            <div>
+              <i>*</i>
+              <span>推送形式</span>
+              <label class="radio">
+                <input type="radio" name="optionsRadios1"/>短信推送
+              </label>
+              <label class="radio">
+                <input type="radio" name="optionsRadios1"/>短信推送
+              </label>
+              <!-- <input type="radio">微信推送 -->
+            </div>
+            <div>
+              <i>*</i>
+              <span>推送模板选择</span>
+              <a href="#" class="btn orange">选择推送模板</a>
+            </div>
+            <div class="import_tel">
+              <i>*</i>
+              <span>导入手机号/openID</span>
+
+              <a href="javascript:;" class="btn orange file">上传logo
+                <input type="file" name="" id="">
+              </a>
+              <a href="/uploadfolder/xxxx.txt" class="btn blue" download="文件名.txt">下载导入模板</a>
+            </div>
+            <div>
+              <i>*</i>
+              <span>推送形式</span>
+              <label class="radio">
+                <input type="radio" name="optionsRadios1" value="option1" />立即推送
+              </label>
+              <label class="radio">
+                <input type="radio" name="optionsRadios1" value="option1" />定时推送
+              </label>
+               <span class="add-on"><input class="ipt_time time" name="startTime" type="text" value="" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+             <i class="icon-calendar"></i></span>
+            </div>
+            <div class="give_Coupon">
+              <i>*</i>
+              <span>赠送优惠券</span>
+              <select class="form-control">
+                <option>选择优惠券</option>
+                <option>我是中国人我是中国人我是中国人我是中国人</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+              <span>
+                 每人
+                 <input type="text" value="1" style="width: 35px; height: 20px; text-align: center;">
+                 张
+              </span>
+            </div>
+            <div class="new_other">
+              <span>券码数量</span>
+              <span>
+                 <input type="text" value="1" style="width: 35px; height: 20px; text-align: center;">
+                 张
+              </span>
+            </div>
+            <div class="new_other">
+              <span>备 注</span>
+              <span>
+                 <textarea class="form-control" rows="3" maxlength="100" onchange="this.value=this.value.substring(0, 100)" onkeydown="this.value=this.value.substring(0,100)" onkeyup="this.value=this.value.substring(0, 100)"></textarea>100/汉字
+              </span>
+            </div>
+          </form>
+          <p class="active_btn">
+            <button type="button" class="btn orange">提交</button>
+            <button type="button" class="btn gray">取消</button>
+          </p>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+<!-- BEGIN CORE PLUGINS -->
+<script src="static/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="static/media/usedJs/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+
+<script src="static/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--[if lt IE 9]>
+
+<script src="static/media/js/excanvas.min.js"></script>
+
+<script src="static/media/js/respond.min.js"></script>
+
+<![endif]-->
+
+<script src="static/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.blockui.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.uniform.min.js" type="text/javascript"></script>
+
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+
+
+
+<script src="static/media/js/jquery.flot.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.flot.resize.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.pulsate.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/date.js" type="text/javascript"></script>
+
+<script src="static/media/js/daterangepicker.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.gritter.js" type="text/javascript"></script>
+
+<script src="static/media/js/fullcalendar.min.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
+
+<script src="static/media/js/jquery.sparkline.min.js" type="text/javascript"></script>
+
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+<script src="static/media/js/app.js" type="text/javascript"></script>
+
+<script src="static/media/js/index.js" type="text/javascript"></script>
+
+<script src="static/media/usedJs/js/blockUI.min.js"></script>
+<script src="static/media/usedJs/js/jquery.form.js"></script>
+<script src="static/media/usedJs/js/validation.js"></script>
+<script src="static/media/usedJs/js/main.controller.js"></script>
+
+<script src="static/media/usedJs/layer/layer.js"></script>
+<script src="static/media/usedJs/js/layerCommon/layerCommon.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+    jQuery(document).ready(function() {
+
+        App.init(); // initlayout and core plugins
+
+        Index.init();
+
+        Index.initJQVMAP(); // init index page's custom scripts
+
+        Index.initCalendar(); // init index page's custom scripts
+
+        Index.initCharts(); // init index page's custom scripts
+
+        Index.initChat();
+
+        Index.initMiniCharts();
+
+        Index.initDashboardDaterange();
+
+        Index.initIntro();
+
+    });
+
+</script>
+
+
+
+
+<script type="text/javascript">
+    $(function () {
+        loadInfo(1,1);
+    });
+    //加载tab信息
+    function loadInfo(flag,tab){
+        var url;
+        if(flag == 1){
+            url = "/partner/loadMemberInfo.do";
+        }
+        else if(flag == 2){
+            url = "/partner/loadIntegralPoolInfo.do";
+        }
+        else if(flag == 3){
+            url = "/partner/loadIntegralBehaviorInfo.do";
+        }
+        else if(flag == 4){
+            url = "/partner/loadIntegralRuleInfo.do";
+        }
+        if(tab == 1 ){
+            $("#pageNum").val(1);
+            $("#pageSize").val(10);
+        }
+        var paramData = {
+            'flag': flag,
+            'partnerId': $("#partnerId").val(),
+            'pageNum': $("#pageNum").val()==undefined?0:$("#pageNum").val(),
+            'pageSize': $("#pageSize").val()==undefined?10:$("#pageSize").val()
+        };
+
+        $.ajax({
+            type: "post",
+            contentType: 'application/json',
+            url: url,
+            async: false,
+            data: JSON.stringify(paramData),
+            dataType: 'html',
+            success: function (data) {
+                $("#tab_1_1").html("");
+                $("#tab_1_2").html("");
+                $("#tab_1_3").html("");
+                $("#tab_1_4").html("");
+                $("#tab_1_"+flag).html(data);
+            },
+            error: function () {
+                layerAlert("系统错误","提示",5);
+            }
+        });
+    }
+
+</script>
+</body>
+</html>
+
+<script>
+  $(".new_other span textarea").keydown(function(event){
+        // var curLength=$(".new_other span textarea").val().length;
+         if(this.value.length >= 5)
+              event.returnValue = false;
+        }
+    })
+</script>

@@ -1,0 +1,1646 @@
+.body_wrap ul,ol{
+  list-style: none;
+  margin:0;
+}
+.body_wrap .clearRow::after{
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+  float:none;
+}
+.body_wrap .clear{
+  width:100%;
+  clear:both;
+}
+.body_wrap .btn.orange{
+  background:#f48c33;
+  color:#fff;
+}
+.body_wrap .btn.orange:hover{
+  background:#e97e00;
+}
+.body_wrap .page-header h3{
+  display:inline-block;
+}
+.body_wrap .page-header .btn{
+  float:right;
+  margin-right:24px;
+  position:relative;
+  top:13px;
+  left:0;
+}
+.body_wrap .previewBox{
+  width:322px;
+  float:left;
+  display:block;
+}
+.body_wrap .previewBox .previewTitle{
+  line-height:26px;
+  color:#666;
+  font-size:18px;
+  margin-bottom:16px;
+}
+.body_wrap .modelBox{
+  border:1px #eee solid;
+  color:#050505;
+}
+.body_wrap .colorBox{
+  border:1px #eee solid;
+  color:#fff;
+}
+.body_wrap .modelBox .phoneTop{
+  width:100%;
+  height:18px;
+  display:block;
+  line-height:18px;
+}
+.body_wrap .modelBox .phoneTop .signal{
+  float:left;
+  width:99px;
+  height:18px;
+  display:block;
+  margin-left:5px;
+}
+.body_wrap .modelBox .phoneTop .circleBox{
+  float:left;
+  height:18px;
+}
+.body_wrap .modelBox .phoneTop .circleBox span{
+  width:4px;
+  height:4px;
+  border:1px #050505 solid;
+  border-radius: 50% !important;
+  margin-right:2px;
+  display:block;
+  float:left;
+  position:relative;
+  top:6px;
+  left:0;
+}
+.body_wrap .modelBox .phoneTop .circleBox span.full{
+  background:#050505;
+}
+.body_wrap .colorBox .phoneTop .circleBox span{
+  border:1px #fff solid;
+}
+.body_wrap .colorBox .phoneTop .circleBox span.full{
+  background:#fff;
+}
+.body_wrap .modelBox .phoneTop .signal .text{
+  float:left;
+  font-size:12px;
+  margin:0 3px 0 0px;
+  transform:scale(0.85);
+}
+.body_wrap .modelBox .phoneTop .signal .wifiIcon{
+  background-image:url('../image/jiyejia/wifiIcon.png');
+  background-size:14px 14px;
+  background-position:0 center;
+  background-repeat: no-repeat;
+  width:14px;
+  height:18px;
+  float:left;
+  display:block;
+}
+.body_wrap .colorBox .phoneTop .signal .wifiIcon{
+  background-image:url('../image/jiyejia/wifiIconWhite.png');
+}
+.body_wrap .modelBox .phoneTop .timeBox{
+  width:100%;
+  height:18px;
+  font-size:12px;
+  text-align: center;
+  width:111px;
+  float:left;
+}
+.body_wrap .modelBox .phoneTop .timeBox span{
+  transform:scale(0.85);
+}
+.body_wrap .modelBox .phoneTop .rightBox{
+  float:right;
+  display:block;
+  height:18px;
+  width:97px;
+  margin-right:8px;
+}
+.body_wrap .modelBox .phoneTop .rightBox .bluetoothIcon{
+  float:right;
+  height:18px;
+  width:12px;
+  background-image:url('../image/jiyejia/bluetoothIcon.png');
+  background-size:12px 12px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  display:block;
+  margin-right:3px;
+}
+.body_wrap .colorBox .phoneTop .rightBox .bluetoothIcon{
+  background-image:url('../image/jiyejia/bluetoothIconWhite.png');
+}
+.body_wrap .modelBox .phoneTop .rightBox .num{
+  float:right;
+  font-size:12px;
+  transform:scale(0.85);
+}
+.body_wrap .modelBox .phoneTop .rightBox .batteryIcon{
+  float:right;
+  height:18px;
+  width:16px;
+  background-image:url('../image/jiyejia/batteryIcon.png');
+  background-size:16px 16px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  display:block;
+  margin-left:2px;
+}
+.body_wrap .colorBox .phoneTop .rightBox .batteryIcon{
+  background-image:url('../image/jiyejia/batteryIconWhite.png');
+}
+.body_wrap .modelBox .cardBox{
+  width:266px;
+  height:150px;
+  /*background:#ec3643;*/
+  border-radius:5px !important;
+  margin:11px auto 16px;
+  display:block;
+  background-size:cover;
+  background-position: center center;
+}
+.body_wrap .colorBox .cardBox{
+
+}
+.body_wrap .modelBox .cardBox .cardHead{
+  padding:30px 20px 0 20px;
+  width:226px;
+  height:42px;
+  display:block;
+}
+.body_wrap .modelBox .cardBox .cardHead .cardLogo{
+  width:42px;
+  height:42px;
+  display:block;
+  background:#d9dadc;
+  border-radius:50% !important;
+  float:left;
+  margin-right:8px;
+  background-size:100% 100%;
+  background-position:center center;
+}
+.body_wrap .modelBox .cardBox .cardHead .cardLogo img{
+  width:42px;
+  height:42px;
+  border-radius:50% !important;
+  display:block;
+  border:none;
+}
+.body_wrap .modelBox .cardBox .cardHead dl{
+  float:left;
+  width:130px;
+  overflow: hidden;
+  line-height:20px;
+  color:#fff;
+  font-size:15px;
+  margin:0;
+  letter-spacing: 1px;
+}
+.body_wrap .modelBox .cardBox .cardHead dl dt{
+  padding:1px 0 1px;
+  font-weight: bold;
+}
+.body_wrap .modelBox .cardBox .cardHead dl dd{
+  margin:0;
+  font-weight: bold;
+}
+
+.body_wrap .modelBox .cardBox .cardHead .QRcode{
+  width:30px;
+  height:30px;
+  padding:3px;
+  background:#fff;
+  float:right;
+  display:block;
+  margin-top:1px;
+}
+.body_wrap .modelBox .cardBox .cardHead .QRcode img{
+  width:30px;
+  height:30px;
+  display:block;
+}
+.body_wrap .modelBox .cardBox .codeNum{
+  width:100%;
+  color:#fff;
+  font-size:16px;
+  line-height:20px;
+  margin:34px 0 0 24px;
+}
+.body_wrap .modelBox ul{
+  width:314px;
+  display:block;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+.body_wrap .modelBox li{
+  line-height:45px;
+  border-bottom:1px #d9dadc solid;
+  color:#2b2b2b;
+  font-size:14px;
+  width:100%;
+  background:url('../image/jiyejia/arrowsRight.png') no-repeat right center;
+  background-size:12px 12px;
+  cursor:pointer;
+}
+.body_wrap .modelBox li:last-of-type{
+  border-bottom:none;
+}
+.body_wrap .optionsBox{
+  float:left;
+  margin-left:40px;
+}
+.body_wrap .optionsBox .optionsTitle{
+  line-height:26px;
+  color:#666;
+  font-size:18px;
+  margin-bottom:16px;
+}
+.body_wrap .optionsBox .optionsForm{
+
+}
+.body_wrap .optionsBox .optionsForm .box{
+  position:relative;
+  display:block;
+  margin:10px 0;
+  min-height:34px;
+  padding-left:97px;
+  box-sizing: border-box;
+  width:100%;
+}
+.body_wrap .optionsBox .optionsForm label.labelText{
+  position:absolute;
+  left:0;
+  top:0;
+  line-height:34px;
+  color:#666;
+  font-size:14px;
+  margin-bottom:0;
+  width:80px;
+}
+.body_wrap .optionsBox .optionsForm label.labelText span{
+  color:#ec3643;
+  font-size:14px;
+  line-height:34px;
+}
+.body_wrap .optionsBox .optionsForm .controls{
+  display:inline-block;
+  margin-bottom:5px;
+}
+.body_wrap .optionsBox .optionsForm .controls::after{
+  clear:both;
+}
+.body_wrap .optionsBox .optionsForm .controlsMin{
+  margin-bottom:5px;
+}
+.body_wrap .optionsBox .optionsForm .controls input{
+  margin-bottom:0;
+  background:#f9f9f9;
+  border: 1px #e5e5e5 solid;
+  height: 24px;
+  line-height: 24px;
+  box-sizing: content-box;
+  padding:4px 6px;
+}
+.body_wrap .optionsBox .optionsForm .controls .radio input[type="radio"]{
+   float: none;
+   margin:0px;
+}
+.body_wrap .optionsBox .optionsForm .controls input.center{
+  text-align:center;
+}
+.body_wrap .optionsBox .optionsForm .controls input.shortInput{
+  width:50px;
+}
+.body_wrap .optionsBox .optionsForm .controls textarea{
+  margin-bottom:0;
+  background:#f9f9f9;
+  width:276px;
+  height:80px;
+  border:1px #e5e5e5 solid;
+}
+.body_wrap .optionsBox .optionsForm .controls textarea.long{
+  width:405px;
+  height:112px;
+}
+
+.body_wrap .optionsBox .optionsForm .controls .ccinput-counter{
+  visibility: visible !important;
+  top:0 !important;
+  line-height:34px !important;
+  left:inherit !important;
+  right:-20px !important;
+  opacity:1 !important;
+  height:34px !important;
+  font-size:14px;
+}
+.body_wrap .optionsBox .optionsForm .textareaNum .ccinput-counter{
+  bottom:0 !important;
+  height:auto;
+  top:inherit !important;
+  line-height:16px !important;
+  height:16px !important;
+  right:-35px !important;
+}
+.body_wrap .optionsBox .optionsForm .controls label{
+  display:block;
+  float:left;
+  line-height:34px;
+  margin-right:30px;
+  margin-top:0 !important;
+}
+.body_wrap .optionsBox .optionsForm .controls .file {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+}
+.body_wrap .optionsBox .optionsForm .controls .file input {
+  position: absolute;
+  font-size: 1px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.body_wrap .optionsBox .optionsForm .controls .afterText{
+  font-size:14px;
+  color:#666;
+  display:inline-block;
+  margin-left:10px;
+  line-height:34px;
+}
+.body_wrap .optionsBox .optionsForm .controls .afterText span.grayText{
+  color:#b2b2b2;
+  margin-left:18px;
+}
+.body_wrap .optionsBox .optionsForm .controls .afterTitle{
+  font-size:14px;
+  color:#b2b2b2;
+  display:inline-block;
+  margin-left:0px;
+  line-height:34px;
+}
+.body_wrap .optionsBox .optionsForm .errorState{
+  color:#ec3643;
+  font-size:14px;
+  line-height:18px;
+}
+.body_wrap .optionsBox .optionsForm .controls .colorBox{
+  border:1px #d9dadc solid;
+  display:inline-block;
+  height:30px;
+  width:auto;
+}
+.body_wrap .optionsBox .optionsForm .controls .colorBox li{
+  width:34px;
+  height:30px;
+  display:block;
+  float:left;
+  cursor: pointer;
+}
+.body_wrap .optionsBox .optionsForm .controls .colorBox li:hover{
+  opacity:0.8;
+}
+.body_wrap .optionsBox .optionsForm .controls .colorBox li span{
+  width:20px;
+  height:20px;
+  display:block;
+  margin:0 auto;
+  position:relative;
+  top:5px;
+  background:#fff;
+  border-radius:50% !important;
+  text-align:center;
+  line-height:20px;
+  color:#de684d;
+}
+.body_wrap .optionsBox .optionsForm .controls .colorBox li span i{
+  width:100%;
+  line-height:20px;
+  text-align: center;
+}
+.body_wrap .optionsBox .optionsForm .btnBox{
+  margin-top:10px;
+}
+
+/* 新建推送 start */
+.body_content .new_push form div span{
+  margin-right: 15px;
+  line-height:30px;
+}
+.body_content .new_push form div label{
+  display:inline-block;
+  margin-top: 0;
+}
+.body_content .new_push form>div{
+    margin-top: 15px;
+
+}
+.body_content .new_push form div i{
+    color: #fa0303;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    top: 6px;
+}
+.body_content .new_push form div .ipt_text{
+    width: 380px;
+    height: 25px;
+}
+.body_content .ipt_time{
+    width:186px;
+    margin-left: 20px;
+}
+
+.body_content .import_tel a.file{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+}
+.body_content .import_tel a input{
+  position: absolute;
+  font-size: 1px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.body_content .give_Coupon select{
+  width:350px;
+}
+.body_content .give_Coupon span input{
+  display:inline-block;
+  width:50px;
+}
+.body_content .new_other{
+  margin-left: 15px;
+}
+.body_content .new_other span textarea{
+  width:500px;
+}
+.body_content .active_btn{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.body_content .active_btn button{
+  width:100px;
+  height:35px;
+}
+.body_content .add-on{
+  position: relative;
+}
+.body_content .new_push form .add-on i{
+    position: absolute;
+    top: -3px;
+    left: 190px;
+    color:#459ae9;
+}
+
+/* 新建推送 end  */
+/*vip概况*/
+.body_wrap .vipCardSurvey {
+  padding-bottom:50px;
+}
+.body_wrap .vipCardSurvey  *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.body_wrap .vipCardSurvey  .btn{
+  box-sizing: content-box;
+  padding:7px 14px;
+  border-radius: 0 !important;
+}
+.body_wrap .vipCardSurvey  .top-portletBox{
+  margin-top:0 !important;
+}
+.body_wrap .vipCardSurvey  .vipNumBox{
+  width:100%;
+  height:122px;
+  background:#f5f5f5;
+  display:block;
+  position:relative;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .box{
+  width:50%;
+  height:122px;
+  display:block;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .leftBox{
+  float:left;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .rightBox{
+  float:right;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .box dl{
+  width:100%;
+  text-align:center;
+  padding-top:28px;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .box dl dt{
+  font-size:26px;
+  line-height:34px;
+  padding-bottom:10px;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .box dl dd{
+  font-size:22px;
+  line-height:24px;
+}
+.body_wrap .vipCardSurvey  .vipNumBox .line{
+  width:2px;
+  height:60px;
+  background:#ccc;
+  display:inline-block;
+  margin:0 auto;
+  position:absolute;
+  top:32px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox{
+  width:100%;
+  padding-top:26px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyTitle{
+  background:url('../image/jiyejia/tendencyIcon.png') no-repeat 0 center;
+  background-size:14px 14px;
+  padding-left:18px;
+  width:100%;
+  line-height:22px;
+  font-size:16px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyTab{
+  width:100%;
+  height:34px;
+  margin:6px 0 20px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyTab .btn{
+  float:left;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyImgBox{
+  width:100%;
+  position:relative;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption{
+  width:100%;
+  min-height:58px;
+  border:1px #ccc solid;
+  padding:6px 5px 0;
+  height:auto;
+  display:inline-block;
+  background:#f5f5f5;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption .box{
+  float:left;
+  margin:0 5px;
+  display:block;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption .box .text{
+  width:100%;
+  font-size:14px;
+  color:#666;
+  line-height:26px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption select{
+  height:34px;
+  width:120px;
+  text-align: center;
+  padding-left:5px;
+  margin-right:10px;
+  margin:0 0px 11px;
+  border-color:#ccc;
+  float:left;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption select.days{
+  margin-right:10px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption input{
+  height:32px;
+  margin:0 0px 11px;
+  padding:0;
+  width:184px;
+  padding:0 5px;
+  float:left;
+  border-color:#ccc;
+  float:left;
+}
+
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption span{
+  line-height:34px;
+  float:left;
+  margin-bottom:11px;
+  margin:0 5px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption .btn{
+  margin:26px 0 11px 5px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyOption .storeBtn{
+  height: 34px;
+  width: 120px;
+  text-align: left;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin: 0 0px 11px;
+  border: 1px #ccc solid;
+  float: left;
+  background-color:#fff;
+  line-height:34px;
+  cursor:pointer;
+  background-image:url('../image/jiyejia/searchIcon.png');
+  background-position: 95px center;
+  background-size:16px 16px;
+  background-repeat: no-repeat;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyImg{
+  width:100%;
+  border:1px #ccc solid;
+  border-top:0;
+  min-height:50px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .tendencyImg img{
+  width:100%;
+  display:block;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .assignStore{
+  position:absolute;
+  top:79px;
+  left:0;
+  z-index:0;
+  width:100%;
+  background:#fff;
+  border:1px #060001 solid;
+  padding:15px;
+  display:none;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .assignStore .assignStoreTitle{
+  width:100%;
+  padding-bottom:10px;
+  border-bottom:1px #f5f5f5 solid;
+  font-size:25px;
+  line-height:34px;
+}
+.body_wrap .vipCardSurvey  .tendencyBox .assignStore .assignStoreOption{
+  width:100%;
+  height:28px;
+  margin:20px 0 15px;
+}
+.body_wrap .vipCardSurvey .assignStoreOption .box{
+  float:left;
+  margin-right:20px;
+  height:28px;
+  display:block;
+}
+.body_wrap .vipCardSurvey .assignStoreOption .text{
+  float:left;
+  margin-right:15px;
+  line-height:26px;
+  color:#2b2b2b;
+}
+.body_wrap .vipCardSurvey .assignStoreOption select{
+  float:left;
+  height:28px;
+  border:1px #d9dadc solid;
+  line-height:26px;
+  padding-left:5px;
+  display:block;
+  width:100px;
+}
+.body_wrap .vipCardSurvey .assignStoreOption input{
+  float:left;
+  height:28px;
+  border:1px #d9dadc solid;
+  line-height:26px;
+  padding:0 5px;
+  display:block;
+  width:155px;
+}
+.body_wrap .vipCardSurvey .assignStore table{
+  width:100%;
+  border-color:#ddd;
+  border:1px #ddd solid;
+  text-align:center;
+}
+.body_wrap .vipCardSurvey .assignStore table td{
+  padding:15px 0;
+  font-size:15px;
+  line-height:22px;
+  color:#2b2b2b;
+  border-color:#ddd;
+}
+.body_wrap .vipCardSurvey .assignStore table td input{
+  outline: none;
+}
+.body_wrap .pagination ul>li>span{
+  padding: 4px 12px;
+}
+.body_wrap .vipCardSurvey .assignStore .finishBtn{
+  margin:28px auto 18px;
+  float:none;
+  display:block;
+  width:46px;
+  border-radius:4px !important;
+}
+.body_wrap .vipCardSurvey  .exportTableTitle{
+  width:100%;
+  margin-top:18px;
+  height:38px;
+  background:#f5f5f5;
+  border:1px #ccc solid;
+  border-bottom:0;
+}
+.body_wrap .vipCardSurvey  .exportTableTitle .btn{
+  float:right;
+  background:#ccc;
+  line-height:24px;
+  color:#666;
+}
+.body_wrap .vipCardSurvey  .exportTableTitle .btn:hover{
+  background:#f48c33;
+  color:#fff;
+}
+.body_wrap .vipCardSurvey  .vipTable{
+  width:100%;
+  text-align: center;
+  border-color: #ccc;
+  border:1px #ccc solid;
+}
+.body_wrap .vipCardSurvey  .vipTable td{
+  line-height:40px;
+  color:#666;
+  font-size:16px;
+  border-color: #ccc;
+}
+.body_wrap .vipCardSurvey  .dataTables_paginate{
+  margin-top:18px;
+}
+.body_wrap .vipCardSurvey .pagination ul>li>a{
+  padding: 5px 12px;
+}
+/*vip概况结束*/
+/*vip会员卡管理*/
+.vipCardManage{
+  display:inline-block;
+  width:100%;
+}
+.body_wrap .vipCardManage  *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.body_wrap .vipCardManage .cardWrap{
+  float:left;
+  min-width:300px;
+  height:210px;
+}
+.body_wrap .vipCardManage .cardBox{
+  width:266px;
+  height:150px;
+  display:block;
+  margin:40px auto 0;
+  border:1px #787878 solid;
+  border-radius:5px !important;
+  float:none;
+}
+.body_wrap .vipCardManage .addNewCard{
+  cursor:pointer;
+}
+.body_wrap .vipCardManage .addNewCard .text{
+  width:100%;
+  line-height:148px;
+  text-align:center;
+  color:#323232;
+  font-size:22px;
+}
+.body_wrap .vipCardManage .addNewCard:hover .text{
+  color:#ec3643;
+}
+.body_wrap .vipCardManage .colorBox{
+  border:0;
+}
+.body_wrap .vipCardManage .colorBox .cardHead{
+  padding:30px 20px 0 20px;
+  width:266px;
+  height:72px;
+  display:block;
+}
+.body_wrap .vipCardManage .colorBox .cardHead .cardLogo{
+  width:42px;
+  height:42px;
+  display:block;
+  background:#d9dadc;
+  border-radius:50% !important;
+  float:left;
+  margin-right:8px;
+}
+.body_wrap .vipCardManage .colorBox .cardHead .cardLogo img{
+  width:42px;
+  height:42px;
+  border-radius:50% !important;
+  display:block;
+  border:none;
+}
+.body_wrap .vipCardManage .colorBox .cardHead dl{
+  float:left;
+  width:130px;
+  overflow: hidden;
+  line-height:20px;
+  color:#fff;
+  font-size:15px;
+  margin:0;
+  letter-spacing: 1px;
+}
+.body_wrap .vipCardManage .colorBox .cardHead dl dt{
+  padding:1px 0 1px;
+  font-weight: bold;
+}
+.body_wrap .vipCardManage .colorBox .cardHead dl dd{
+  margin:0;
+  font-weight: bold;
+}
+
+.body_wrap .vipCardManage .colorBox .cardHead .QRcode{
+  width:36px;
+  height:36px;
+  padding:3px;
+  background:#fff;
+  float:right;
+  display:block;
+  margin-top:1px;
+}
+.body_wrap .vipCardManage .colorBox .cardHead .QRcode img{
+  width:30px;
+  height:30px;
+  display:block;
+}
+.body_wrap .vipCardManage .colorBox .cardBottom{
+  height:62px;
+  width:100%;
+  padding:24px 0 0 24px;
+}
+.body_wrap .vipCardManage .colorBox .codeNum{
+  color:#fff;
+  font-size:16px;
+  line-height:20px;
+  padding-top:10px;
+  float:left;
+  display:inline-block;
+}
+.body_wrap .vipCardManage .colorBox .switchBtn{
+  position: relative;
+  display: block;
+  vertical-align: top;
+  width: 100px;
+  height: 34px;
+  border-radius: 18px !important;
+  cursor: pointer;
+  float:right;
+  margin-right:10px;
+  background:rgba(0,0,0,0.4);
+  transition: all 0.7s ease;
+  top:4px;
+}
+.body_wrap .vipCardManage .colorBox .isChoose{
+  background:rgba(0,0,0,0.6);
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .checker{
+  position:absolute;
+  left:0;
+  top:0;
+  opacity:0;
+  z-index:-1;
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .checked-switch{
+
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .text{
+  width:100%;
+  line-height:32px;
+  font-size:14px;
+  color:#fff;
+  opacity:0;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:2;
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .text1{
+  transform:translateX(36px);
+  transition: all 0.7s ease;
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .text2{
+  transform:translateX(20px);
+  transition: all 0.7s ease;
+}
+.body_wrap .vipCardManage .colorBox .isChoose .text1{
+  opacity:0;
+}
+.body_wrap .vipCardManage .colorBox .isChoose .text2{
+  opacity:1;
+}
+.body_wrap .vipCardManage .colorBox .noChoose .text1{
+  opacity:1;
+}
+.body_wrap .vipCardManage .colorBox .noChoose .text2{
+  opacity:0;
+}
+.body_wrap .vipCardManage .colorBox .switchBtn .circle{
+  width:24px;
+  height:24px;
+  display:block;
+  background:#fff;
+  border-radius:50% !important;
+  position:absolute;
+  left:4px;
+  top:4px;
+  z-index:3;
+  transition: all 0.7s ease;
+}
+.body_wrap .vipCardManage .colorBox .isChoose .circle{
+  transform:translateX(66px);
+}
+.body_wrap .vipCardManage .colorBox .noChoose .circle{
+  transform:translateX(0px);
+}
+.body_wrap .vipCardManage .cardOption{
+  width:100%;
+  text-align:center;
+}
+.body_wrap .vipCardManage .cardOption .link{
+  margin:10px 20px;
+  line-height:20px;
+  font-size:12px;
+  color:#0ca1d5;
+  display:inline-block;
+  cursor: pointer;
+}
+.body_wrap .vipCardManage .cardOption .link:hover{
+  color:#ec3643;
+}
+/*vip会员卡管理结束*/
+/*创建优惠券*/
+.body_wrap .creatCoupon *{
+  box-sizing:border-box;
+}
+.body_wrap .modelBox .phontOpation{
+  width:100%;
+  height:24px;
+}
+.body_wrap .modelBox .phontOpation .backIcon{
+  width:14px;
+  height:14px;
+  display:block;
+  float:left;
+  position:relative;
+  top:5px;
+  background:url('../image/jiyejia/backIconWhite.png') no-repeat;
+  background-size:14px 14px;
+  margin-left:4px;
+}
+.body_wrap .modelBox .phontOpation .moreIcon{
+  width:16px;
+  height:16px;
+  display:block;
+  float:right;
+  position:relative;
+  top:4px;
+  background:url('../image/jiyejia/moreIcon.png') no-repeat;
+  background-size:16px 16px;
+  margin-right:20px;
+}
+.body_wrap .modelBox .couponBox{
+  width:100%;
+  padding:10px 10px 0;
+  height:436px;
+}
+.body_wrap .modelBox .couponMain{
+  width:100%;
+  border-radius:5px !important;
+  background:#fff;
+  display:block;
+  position:relative;
+  padding:42px 10px 16px;
+  color:#2b2b2b;
+  text-align:center;
+}
+.body_wrap .modelBox .couponMain .couponLogo{
+  position:absolute;
+  left:50%;
+  top:-16px;
+  z-index:2;
+  border-radius:50% !important;
+  border:1px #d9dadc solid;
+  width:42px;
+  height:42px;
+  margin-left:-21px;
+  background:#fff;
+}
+.body_wrap .modelBox .couponMain .couponLogo img{
+  width:100%;
+  height:100%;
+  display:block;
+  border-radius:50% !important;
+}
+.body_wrap .modelBox .couponMain .storeName{
+  width:100%;
+  text-align:center;
+  font-size:16px;
+  line-height:24px;
+  letter-spacing: 1px;
+}
+.body_wrap .modelBox .couponMain .couponName{
+  padding:22px 0 15px;
+  width:100%;
+  font-size:26px;
+  line-height:32px;
+  text-align:center;
+  letter-spacing: 1px;
+}
+.body_wrap .modelBox .couponMain .btn{
+  font-size:16px;
+  padding:6px 7px;
+}
+.body_wrap .modelBox .couponMain ul{
+  padding:15px 0 0 0;
+  width:100%;
+}
+.body_wrap .modelBox .couponMain ul li{
+  width:100%;
+  line-height:20px;
+  padding:10px 0;
+  border-bottom:1px #d9dadc solid;
+  background:url('../image/jiyejia/arrowsRight.png') no-repeat right center;
+  background-size:12px 12px;
+  text-align:left;
+  font-size:14px;
+}
+.body_wrap .creatCoupon .optionsBox .optionsForm .box{
+  padding-left: 100px;
+}
+.body_wrap .creatCoupon .optionsBox .optionsForm label.labelText{
+  width: 100px;
+}
+.body_wrap .creatCoupon .optionsBox select{
+  margin-bottom:0;
+}
+.body_wrap .creatCoupon .optionsBox .timeBox{
+  width:100%;
+  display:block;
+  clear:both;
+}
+.body_wrap .creatCoupon .optionsBox .timeBox1 input{
+  width:172px;
+  background-image:url('../image/jiyejia/date.png');
+  background-size:18px 18px;
+  background-color:#f9f9f9;
+  background-position: 160 center;
+  background-repeat: no-repeat;
+}
+.body_wrap .creatCoupon .optionsBox span.centerSpan{
+  width:20px;
+  text-align: center;
+  display:inline-block;
+}
+.body_wrap .creatCoupon .optionsBox select{
+  background-color:#f9f9f9;
+  border-color:#e5e5e5;
+}
+.body_wrap .creatCoupon .optionsBox .timeBox select{
+  width:70px;
+  height: 34px;
+  line-height: 34px;
+  margin-left:5px;
+}
+.body_wrap .creatCoupon .optionsForm .longInput{
+  width:386px !important;
+}
+.body_wrap .creatCoupon .optionsForm textarea.longInput{
+  width:400px !important;
+}
+.body_wrap .optionsBox .optionsForm .teatareaNum .ccinput-counter{
+  top:inherit !important;
+  bottom: 0 !important;
+  right:-40px !important;
+  height: 16px !important;
+  line-height: 16px !important;
+}
+.body_wrap .optionsBox .grayBtn{
+  border:1px #e5e5e5 solid;
+  padding:6px 13px;
+}
+.body_wrap .creatCoupon .modal{
+  width:85%;
+  margin-left:-42.75% !important;
+  left:50% !important;
+}
+.body_wrap .creatCoupon .modal .assignStoreOption{
+  width:100%;
+  height:28px;
+  margin:0px 0 15px;
+}
+.body_wrap .creatCoupon .modal .box{
+  float:left;
+  margin-right:20px;
+  height:28px;
+  display:block;
+}
+.body_wrap .creatCoupon .modal .text{
+  float:left;
+  margin-right:15px;
+  line-height:26px;
+  color:#2b2b2b;
+}
+.body_wrap .creatCoupon .modal .assignStoreOption *{
+  box-sizing: content-box;
+}
+.body_wrap .creatCoupon .modal .assignStoreOption select{
+  float:left;
+  height:28px;
+  border:1px #d9dadc solid;
+  line-height:26px;
+  padding-left:5px;
+  display:block;
+  width:100px;
+  padding: 0 0 0 5px;
+  margin-bottom: 0px;
+}
+.body_wrap .creatCoupon .modal input[type='text']{
+  float:left;
+  height:28px;
+  border:1px #d9dadc solid;
+  line-height:26px;
+  padding:0 5px;
+  display:block;
+  width:155px;
+}
+.body_wrap .creatCoupon .modal table{
+  width:100%;
+  border-color:#ddd;
+  border:1px #ddd solid;
+  text-align:center;
+}
+.body_wrap .creatCoupon .modal table td{
+  padding:15px 0;
+  font-size:15px;
+  line-height:22px;
+  color:#2b2b2b;
+  border-color:#ddd;
+}
+.body_wrap .creatCoupon .modal table td input{
+  outline: none;
+}
+.body_wrap .creatCoupon .modal .modal-footer{
+  background:#fff;
+}
+.body_wrap .creatCoupon .modal .modal-footer button{
+  display:block;
+  margin:0 auto;
+}
+.body_wrap .creatCoupon .modal .dataTables_paginate select{
+  height:30px;
+  line-height:30px;
+}
+.body_wrap .creatCoupon .modal .modal-body{
+  padding: 25px 25px 0px;
+}
+.body_wrap .creatCoupon .modal .pagination{
+  margin:20px 0 0;
+}
+.body_wrap .creatCoupon .modal.fade{
+  top:25%;
+}
+/*创建优惠券 结束*/
+/*消息推送记录*/
+.body_wrap .msgPushRecord{
+  width:100%;
+}
+.body_wrap .msgPushRecord *{
+  box-sizing:border-box;
+}
+.body_wrap .msgPushRecord .msgPushInfo{
+  background: #f5f5f5;
+  width:100%;
+  padding:10px;
+  float:none;
+}
+.body_wrap .msgPushRecord .msgPushInfo .box{
+  font-size:14px;
+  line-height:30px;
+  font-weight:bold;
+}
+.body_wrap .msgPushRecord .msgPushInfo .box span{
+  font-weight:normal;
+}
+.body_wrap .msgPushRecord .sendListTitle{
+  margin:30px 0 10px;
+  width:100%;
+  line-height:30px;
+  font-size:18px;
+  float:none;
+  clear:both;
+}
+.body_wrap .msgPushRecord .msgPushBox{
+  border:1px #ccc solid;
+
+  width:100%;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox{
+  width:100%;
+  line-height:30px;
+  background:#f5f5f5;
+  padding:10px 0 10px 20px;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox .box{
+  float:left;
+  margin-right:30px;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox .box .text{
+  font-size:12px;
+  display:inline-block;
+  margin:0;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox .box input{
+  margin:0;
+  line-height:34px;
+  height:34px;
+  border-color: #ccc;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox .box select{
+  margin:0;
+  line-height:34px;
+  height:34px;
+  border-color: #ccc;
+  width:120px;
+}
+.body_wrap .msgPushRecord .msgPushBox .optionBox .btn{
+  margin-right:20px;
+  float:right;
+}
+.body_wrap .msgPushRecord .msgPushBox .tableBox{
+  padding:0px 20px 0;
+  width:100%;
+}
+.body_wrap .msgPushRecord .msgPushBox table{
+  width:100%;
+border-color: #ccc;
+border: 1px #ccc solid;
+margin:20px auto 0;
+font-size:12px;
+background:#fff;
+}
+.body_wrap .msgPushRecord .msgPushBox table thead{
+  background:#fff;
+}
+.body_wrap .msgPushRecord .msgPushBox table thead th{
+  padding:8px 5px;
+  text-align: center;
+}
+.body_wrap .msgPushRecord .msgPushBox table td{
+  padding:8px 5px;
+}
+.body_wrap .msgPushRecord .msgPushBox .dataTables_paginate{
+  margin-right:20px;
+}
+/*消息推送记录结束*/
+/*订单详情*/
+.body_wrap .orderDetail{
+  width:100%;
+}
+.body_wrap .orderDetail .orderTitle{
+  line-height:26px;
+  padding:6px;
+  width:100%;
+  background:#f5f5f5;
+  font-size:18px;
+  color:#666666;
+}
+.body_wrap .orderDetail table{
+  border:none;
+  text-align: left;
+  margin:10px 0 17px 80px;
+}
+.body_wrap .orderDetail table thead th{
+  padding:15px 10px;
+  min-width:80px;
+}
+.body_wrap .orderDetail table td{
+  padding:8px 10px;
+  min-width:80px;
+}
+.body_wrap .orderDetail .orderDl{
+  width:100%;
+  padding:5px 0 5px 90px;
+  margin:10px 0;
+}
+.body_wrap .orderDetail .orderDl dt{
+  display:inline-block;
+  float:left;
+  font-size:16px;
+  width:160px;
+}
+.body_wrap .orderDetail .orderDl dd{
+  display:inline-block;
+  float:left;
+}
+/*订单详情结束*/
+/*派发中心*/
+.body_content .sendCenter form div span{
+  margin-right: 15px;
+}
+.body_content .sendCenter form div label{
+  display:inline-block;
+  margin-top: 0;
+}
+.body_content .sendCenter form>div{
+    margin-top: 15px;
+}
+.body_content .sendCenter form div i{
+    color: #fa0303;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    top: 6px;
+}
+.body_content .sendCenter form div .ipt_text{
+    width: 380px;
+    height: 25px;
+}
+.body_content .sendCenter .ipt_time{
+    width:172px;
+    margin-left: 20px;
+}
+
+.body_content .sendCenter .import_tel a.file{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+}
+.body_content .sendCenter .import_tel a input{
+  position: absolute;
+  font-size: 1px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.body_content .sendCenter .give_Coupon select{
+  width:350px;
+}
+.body_content .sendCenter .give_Coupon span input{
+  display:inline-block;
+  width:50px;
+}
+.body_content .sendCenter .new_other{
+  margin-left: 15px;
+}
+.body_content .sendCenter .new_other span textarea{
+  width:500px;
+}
+.body_content .sendCenter .active_btn{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.body_content .sendCenter .active_btn button{
+  width:100px;
+  height:35px;
+}
+.body_content .sendCenter .add-on{
+  position: relative;
+}
+.body_content .sendCenter form .add-on i{
+    position: absolute;
+    top: -3px;
+    left: 160px;
+    color:#459ae9;
+}
+.body_content .sendCenter .card_h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.body_content .sendCenter .cart_ipt_time{
+  margin-left:0;
+}
+.body_content .sendCenter form .card_time.add-on i{
+  position: absolute;
+    top: -3px;
+    left: 155px;
+}
+.body_content .sendCenter .card_to{
+  margin: 0 10px 0 -5px;
+  font-style: normal;
+}
+.body_content .sendCenter .btnMargin{
+  margin-bottom:10px;
+}
+/*派发中心结束*/
+/*弹窗选择门店*/
+.body_wrap .chooseShop{
+
+}
+.body_wrap .chooseShop.modal{
+  width:auto;
+  transform:translateX(-50%);
+}
+.body_wrap .modal .modal-header {
+    padding: 9px 25px;
+}
+.body_wrap .modal .modal-header button.close {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 9px;
+    height: 9px;
+    padding: 18px;
+    background-position: center center;
+    opacity: 0.6;
+}
+.body_wrap .modal .modal-body {
+    padding: 15px 20px 15px;
+}
+.body_wrap .modal .modal-footer {
+    padding: 14px 25px 15px;
+}
+.body_wrap .modal .modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.body_wrap .modal .btn{
+  border-radius: 4px !important;
+}
+@media (min-width: 768px){
+  .modal-dialog {
+      width: 750px;
+      margin: 30px auto;
+  }
+}
+
+@media (min-width: 992px){
+  .modal-lg {
+      width: 1050px;
+  }
+}
+.body_wrap .chooseShop .modal-body{
+  width:100%;
+}
+.body_wrap .chooseShop .modalBox{
+  width:48%;
+  display:block;
+  float:left;
+  height:300px;
+  margin:0 1%;
+}
+.body_wrap .chooseShop .modalBox .boxTitle{
+  width:100%;
+  line-height:22px;
+  font-size:16px;
+  color: #606060;
+}
+.body_wrap .chooseShop .modalBox .boxTitle span{
+  display:block;
+  float:left;
+}
+.body_wrap .chooseShop .modalBox .boxTitle .border{
+  width:5px;
+  height:14px;
+  background:#fd9d2e;
+  transform:translateY(4px);
+  border:none;
+  margin-right:5px;
+}
+.body_wrap .chooseShop .modalBox .boxTitle .text1{
+  color:#606060;
+
+}
+.body_wrap .chooseShop .modalBox .boxTitle .text2{
+  color:#ccc;
+}
+.body_wrap .chooseShop .modalBox .tableBox{
+  border:1px #ccc solid;
+  width:100%;
+  padding:0 0 10px 0;
+  margin:10px 0;
+}
+.body_wrap .chooseShop .modalBox .tableBox .optionBox{
+  width:100%;
+  line-height:22px;
+  padding:10px 5px;
+  background:#f5f5f5;
+}
+.body_wrap .chooseShop .modalBox .tableBox .optionBox select{
+  width:100px;
+  margin:0 5px;
+  float:left;
+  display:block;
+  height:34px;
+}
+.body_wrap .chooseShop .modalBox .tableBox .optionBox input{
+  width:160px;
+  margin:0 5px;
+  float:right;
+  display:block;
+  height:34px;
+  padding:0 5px;
+}
+.body_wrap .chooseShop .modalBox .tableBox .optionBox .btn{
+  margin:0 5px;
+  float:right;
+  display:block;
+}
+.body_wrap .chooseShop .modalBox .tableBox .tableWrap{
+  width:100%;
+  padding:0 5px;
+  margin:10px 0;
+}
+.body_wrap .chooseShop .modalBox .tableBox table{
+  width:100%;
+  border-color: #ccc;
+  border: 1px #ccc solid;
+  text-align: center;
+}
+.body_wrap .chooseShop .modalBox .tableBox table thead{
+  background:#f5f5f5;
+}
+.body_wrap .chooseShop .modalBox .tableBox table th,.body_wrap .chooseShop .modalBox .tableBox table td {
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2b2b2b;
+}
+.pagination ul>li>a, .pagination ul>li>span, .pagination ul>li i{
+  line-height:20px;
+  color:#2b2b2b;
+  font-weight:normal;
+  padding:4px 14px;
+}
+.pagination ul>li>span.num{
+   background:none;
+   border:none;
+   padding:5px 14px;
+}
+.pagination ul>li.noBorder a{
+  border:none;
+  background:none;
+}
+.body_wrap .modal .pagination ul>li>a{
+  padding:4px 14px;
+}
+.body_wrap .modal .pagination ul>li.marginTop{
+  position:relative;
+  top:-1px;
+}
+.pagination ul>li.numberWrap{
+  margin-left:10px;
+}
+.pagination ul>li.numberWrap input{
+  width:60px;
+  height:30px;
+  border:1px #ddd solid;
+  text-align: center;
+}
+.pagination ul>li.pageText{
+  height:30px;
+  text-align: center;
+  line-height:30px;
+  padding:0 5px;
+}
+.body_wrap .pagination ul>li .pageBtn{
+  padding:5px 14px;
+}
+.body_wrap .chooseShop .modalBox .tableBox table td .deleteIcon{
+  width:22px;
+  height:22px;
+  display:block;
+  background:url('../image/jiyejia/deleteIcon.png') no-repeat;
+  background-size:22px 22px;
+  margin:0 auto;
+  cursor:pointer;
+}
+.body_wrap .chooseShop .modalBox .tableBox table td .deleteIcon:hover{
+  opacity:0.8;
+}
+.body_wrap .chooseShop .modal-footer{
+  text-align: center;
+}
+.body_wrap .chooseShop .modal-footer .finishBtn{
+  position:relative;
+  margin-right:15px;
+  padding: 7px 24px;
+}
+.body_wrap .chooseShop .modal-footer .finishBtn span{
+  position:absolute;
+  right:-12px;
+  top:-12px;
+  padding:3px 6px;
+  background:#279fd7;
+  border:1px #bae0f5 solid;
+  color:#fff;
+  font-size:10px;
+}
+/*弹窗选择门店结束*/

@@ -1,0 +1,138 @@
+#tree_box {
+    width: 240px;
+    height: 100vh;
+    overflow: auto;
+    background: grey;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: #fafafa;
+}
+
+body .body_wrap {
+    padding-left: 260px;
+}
+
+body .breadcrumb {
+    margin-left: 260px;
+}
+
+#tree_box .tree_top {
+    width: 240px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:2;
+    border-bottom:1px #ccc solid;
+    padding:10px;
+    box-sizing: border-box;
+    background:#f5f5f5;
+}
+#tree_box .tree_top a{
+  color:#fff;
+}
+#tree_box .btn.mini{
+  padding:5px;
+}
+#treeDemo{
+  padding:100px 0 20px;
+}
+.ztree li ul{
+  padding:0 0 0 10px;
+}
+.ztree li a span.button{
+  margin-right:3px !important;
+}
+.ztree li a span.button.ico_docu{
+  margin-right:4px !important;
+}
+.ztree li a{
+  color:#606060;
+  padding:4px 4px 4px;
+  line-height:16px;
+  cursor:pointer;
+}
+.ztree *{
+  font-size:14px;
+}
+.ztree li a.curSelectedNode{
+  background:#606060;
+  border:none;
+  height:17px;
+  padding: 4px 4px 4px;
+  border-radius:4px !important;
+}
+.ztree li a.curSelectedNode:hover{
+  color:#fff;
+}
+.ztree li a.curSelectedNode span{
+  color:#fff;
+}
+.ztree li a.curSelectedNode span input{
+  box-shadow: none;
+  border:none;
+  padding:0 3px;
+}
+.ztree li a span.button {
+    background: none;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: 16px;
+    vertical-align: baseline;
+}
+
+.ztree li a span.button:before {
+    content: "\f07b";
+    text-decoration: inherit;
+    display: inline-block;
+    cursor: default;
+    speak: none;
+    cursor:pointer;
+}
+.ztree li a span.button.ico_open:before{
+  content: "\f07c";
+  text-decoration: inherit;
+  display: inline-block;
+  cursor: default;
+  speak: none;
+}
+.ztree li a span.button.ico_docu:before{
+  content: "\f15b";
+  text-decoration: inherit;
+  display: inline-block;
+  cursor: default;
+  speak: none;
+}
+.ztree li span.button {
+    line-height: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(../image/zTreeStandard.png);
+}
+.ztree li span.button.roots_open{
+  background-position: -92px 0;
+}
+.ztree li span.button.roots_close {
+  background-position: -74px 0;
+}
+.ztree li span.button.center_open,.ztree li span.button.center_close,.ztree li span.button.roots_open,.ztree li span.button.roots_close{
+  position:relative;
+  top:2px;
+  left:2px;
+}
